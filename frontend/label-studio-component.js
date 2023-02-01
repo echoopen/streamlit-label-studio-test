@@ -168,7 +168,7 @@ function runLabelStudioComponent() {
         }
     }
   
-    let pipeline = [log_Handler, setFrameHeight_Handler, renderLabelStudio_Handler, forcePageReload_Handler]
+    let pipeline = [log_Handler, setFrameHeight_Handler, renderLabelStudio_Handler]
 
     // ----------------------------------------------------
     // Finally, initialize component passing in pipeline
